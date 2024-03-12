@@ -1,0 +1,13 @@
+Daniel Aquino Santiago y Daniel Birsan
+
+Normativa de entrega cumplida en su totalidad: Realizado. Se han respetado las normas de entrega.
+
+Contar paquetes de una traza: Realizado. Al ejecutar el programa sobre una traza podemos comprobar que el numero de paquetes procesados que muestra la terminal es igual al numero de paquetes que muestra wireshark al abrir la traza
+
+Contar paquetes de la interfaz de red: Realizado. La función procesa_paquete dispone de un contador de paquetes, el cual al final del programa se imprimira por pantalla. Esto permite que mediante el uso de una sola variable podamos contar tantos los paquetes procesados en una red, como tanto los procesados en una traza
+
+Almacenar en una traza el tráfico capturado en vivo: Realizado: Hemos visto que los paquetes se separaban según las condiciones del enunciado, filtrando antes de dumpear dicho paquete en la traza mediante el uso de condicionales "if" accediendo a las posiciones de datos que nos interesa de cada paquete.
+
+Modificar fecha correctamente: Realizado. Se ha sumado a la fecha original 45 minutos (en segundos), y se ha verificado en wireshark la correcta modificacion de dicha fecha.
+
+Imprimir los N primeros bytes de un paquete y validarlo con Wireshark (captura de pantalla): Realizado: Se imprimen correctamente, poniendo cualquier numero de bytes. Ademas hemos tenido cuidado en que si se sobrepasa el tamañano en bytes del paquete con el argumento nbytes, solo se imprimira hasta donde el paquete termine, evitando imprimir datos erroneos.

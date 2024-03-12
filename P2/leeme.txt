@@ -1,0 +1,17 @@
+Autores: Daniel Aquino Santiago y Daniel Birsan
+
+Criterios de evaluación:
+
+-Normativa de entrega cumplida en su totalidad: 2,5% (REALIZADO)
+-Fichero leeme.txt bien explicado: 2,5% (REALIZADO)
+-Recibir tramas Ethernet, realizar comprobaciones y llamar correctamente a la función de callback de nivel superior 10% (REALIZADO)
+-Enviar tramas Ethernet  correctamente 10% (REALIZADO)
+-Enviar correctamente peticiones ARP 10% (REALIZADO)
+-Procesar correctamente peticiones ARP recibidas 15% (REALIZADO)
+-Enviar correctamente respuestas ARP 15% (REALIZADO)
+-Procesar correctamente respuestas ARP 15% (REALIZADO)
+-Manejo correcto de la caché ARP 5% (REALIZADO)
+-Uso correcto de Locks 5% (REALIZADO)
+-Realiza correctamente el sondeo ARP 10% (REALIZADO)
+
+Hemos realizado la practica al completo, hemos realizado pruebas desde distintos host, comprobando el correcto funcionamiento de los protocolos ARP y el uso correcto de la caché. Hemos observado mediante wireshark la rececpión de dichos paquetes desde los distintos host (arp_request y arp_response) y hemos comprobado que modificando la ip de uno de ellos con la misma ip que el otro, el nivel ARP no inicializa ya que el sondeo ARP falla al existir dos interfaces con la misma IP
